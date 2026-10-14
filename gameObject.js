@@ -1,4 +1,7 @@
 
+var canvas = document.getElementById("myCanvas");
+var context = canvas.getContext("2d");
+
 function GameObject()
 {
     this.x = 20;
